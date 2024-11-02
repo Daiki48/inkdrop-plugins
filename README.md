@@ -3,10 +3,10 @@
 ## Install
 
 ```shell
-cargo install inkp
+cargo install inkdrop-plugins
 ```
 
-## For setup
+## For alias setup
 
 ### Bash
 
@@ -35,10 +35,6 @@ Print inkdrop plugins list.
 ```shell
 inkdrop-plugins --list
 ```
-
-## Getting API
-
-[Inkdrop API](https://api.inkdrop.app/v1/packages?page=0&sort=majority)
 
 ## LICENSE
 
