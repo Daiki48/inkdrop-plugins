@@ -1,11 +1,16 @@
 [package]
-name = "inkdrop-plugin-list"
+name = "inkdrop-plugins"
 version = "0.1.0"
 edition = "2021"
+authors = ["Daiki Nakashima <daiki48.engineer@gmail.com>"]
+license = "MIT"
+description = "CLI for Inkdrop plugins"
+readme = "README.md"
+repository = "https://github.com/Daiki48/inkdrop-plugins"
+keywords = ["cli", "inkdrop", "inkdrop-plugin"]
 
 [dependencies]
 clap = { version = "4.5.20", features = ["derive"] }
-headless_chrome = "1.0.15"
-reqwest = { version = "0.12.9", features = ["blocking"] }
-scraper = "0.21.0"
+reqwest = { version = "0.12.9", features = ["json"] }
+serde = { version = "1.0.214", features = ["derive"] }
 tokio = { version = "1.41.0", features = ["full"] }
