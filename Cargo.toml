@@ -1,6 +1,6 @@
 [package]
 name = "inkdrop-plugins"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Daiki Nakashima <daiki48.engineer@gmail.com>"]
 license = "MIT"
@@ -11,6 +11,7 @@ keywords = ["cli", "inkdrop", "inkdrop-plugin"]
 
 [dependencies]
 clap = { version = "4.5.20", features = ["derive"] }
+futures = "0.3.31"
 reqwest = { version = "0.12.9", features = ["json"] }
 serde = { version = "1.0.214", features = ["derive"] }
 serde_json = "1.0.132"
