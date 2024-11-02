@@ -13,4 +13,8 @@ keywords = ["cli", "inkdrop", "inkdrop-plugin"]
 clap = { version = "4.5.20", features = ["derive"] }
 reqwest = { version = "0.12.9", features = ["json"] }
 serde = { version = "1.0.214", features = ["derive"] }
+serde_json = "1.0.132"
 tokio = { version = "1.41.0", features = ["full"] }
+
+[dev-dependencies]
+httpmock = "0.7.0"
